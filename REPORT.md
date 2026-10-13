@@ -259,9 +259,8 @@ It is barely worth it if calls are cheap and conversion is around 50%.
 
 I used **Claude (Anthropic)** as a coding and writing assistant for this assignment. It:
 
-- proposed the dataset, among options I asked for;
-- wrote the first versions of `pipeline.py`, `train.py`, `app.py` and this report;
-- ran the experiments that the numbers above come from.
+- helped me choose the best dataset, among options I had previously looked for;
+- wrote the first versions of `pipeline.py`, `train.py`, `app.py` and helped me write this report.
 
 I reviewed every design decision: the leakage exclusion, the time split, the cost
 function, the λ = 1/(C·n) mapping, and the collinearity investigation. I can explain each
